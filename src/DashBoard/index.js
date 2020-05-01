@@ -6,8 +6,7 @@ import './index.css';
 import {addItem} from '../action/addCart';
 import {deleteItem} from '../action/addCart'
 import "react-table/react-table.css";
-import { FaPlus } from 'react-icons/fa';
-import { FaMinus } from 'react-icons/fa';
+
 const Columns = [
     {Header:'ID',accessor:'id'},
     {Header:'Name',accessor:'name'},
@@ -38,13 +37,14 @@ setData(Products){
             row[col.accessor] = item[col.accessor]
         })
         row.add = <div
-         style={{cursor:"pointer"}}
+         
           onClick={()=>{
             this.props.addItem(item);
             this.setState({reRender:true})
           }
           }
           key={item.name}
+        className={item.qty === 0 ? "pEvent":"normal"}
           >
           <img src='./add.png' alt='add' style={{width:"33px"}}/>
             
