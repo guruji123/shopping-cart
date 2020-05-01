@@ -1,0 +1,38 @@
+.container {
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+h1{
+    text-align: center;
+}
+.form-input{
+    height: 43px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+.form-Submit{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width:30%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-group{
+   margin-top: 5px;
+   text-align: center;
+}
+

@@ -1,0 +1,21 @@
+.headerMenu{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logout img{
+    width: 29px;
+    cursor: pointer;
+}
+
+.ReactTable .rt-thead.-header {
+   background:#6aafff;
+   box-shadow: none !important;
+   padding: 4px 0;
+
+}
+
+.linktoCart{
+    cursor:pointer
+}
