@@ -46,9 +46,7 @@ setData(Products){
           }
           key={item.name}
           >
-          <button onClick={this.add} id="add">
-            <FaPlus />
-          </button>
+          <img src='./add.png' alt='add' style={{width:"33px"}}/>
             
         </div>;
          row.remove = <div
@@ -60,10 +58,7 @@ setData(Products){
           }
           key={item.name}
           >
-          <button onClick={this.remove} id="remove">
-            <FaMinus />
-          </button>
-       
+           <img src='./remove.png' alt='remove' style={{width:"33px"}}/>
         </div>
         rows.push(row);
     })
