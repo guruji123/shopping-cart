@@ -19,3 +19,10 @@
 .linktoCart{
     cursor:pointer
 }
+
+.pEvent{
+    pointer-events: none;
+}
+.normal{
+    cursor: pointer;
+}
